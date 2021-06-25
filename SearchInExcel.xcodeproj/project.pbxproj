@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB8072AC561E6D69A6A2969 /* Pods_SearchInExcel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0C4BC0B0F8552BE091C2DA /* Pods_SearchInExcel.framework */; };
+		AD7294432682B2E80019BCBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7294422682B2E80019BCBF /* AppDelegate.swift */; };
+		AD7294452682B2E80019BCBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7294442682B2E80019BCBF /* ContentView.swift */; };
+		AD7294472682B2E80019BCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7294462682B2E80019BCBF /* Assets.xcassets */; };
+		AD72944A2682B2E80019BCBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7294492682B2E80019BCBF /* Preview Assets.xcassets */; };
+		AD72944D2682B2E80019BCBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD72944B2682B2E80019BCBF /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C0C4BC0B0F8552BE091C2DA /* Pods_SearchInExcel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchInExcel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		917826F87D92DD00B5DC89E3 /* Pods-SearchInExcel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchInExcel.debug.xcconfig"; path = "Target Support Files/Pods-SearchInExcel/Pods-SearchInExcel.debug.xcconfig"; sourceTree = "<group>"; };
+		A8BEE2A265AB475E19B75EC4 /* Pods-SearchInExcel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchInExcel.release.xcconfig"; path = "Target Support Files/Pods-SearchInExcel/Pods-SearchInExcel.release.xcconfig"; sourceTree = "<group>"; };
+		AD72943F2682B2E70019BCBF /* SearchInExcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchInExcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7294422682B2E80019BCBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD7294442682B2E80019BCBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD7294462682B2E80019BCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7294492682B2E80019BCBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD72944C2682B2E80019BCBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD72944E2682B2E80019BCBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD72944F2682B2E80019BCBF /* SearchInExcel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SearchInExcel.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD72943C2682B2E70019BCBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB8072AC561E6D69A6A2969 /* Pods_SearchInExcel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16838E73F12A038F5EFA3042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C0C4BC0B0F8552BE091C2DA /* Pods_SearchInExcel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E3E726E35515DCBD81C86B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				917826F87D92DD00B5DC89E3 /* Pods-SearchInExcel.debug.xcconfig */,
+				A8BEE2A265AB475E19B75EC4 /* Pods-SearchInExcel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD7294362682B2E70019BCBF = {
+			isa = PBXGroup;
+			children = (
+				AD7294412682B2E70019BCBF /* SearchInExcel */,
+				AD7294402682B2E70019BCBF /* Products */,
+				4E3E726E35515DCBD81C86B2 /* Pods */,
+				16838E73F12A038F5EFA3042 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD7294402682B2E70019BCBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD72943F2682B2E70019BCBF /* SearchInExcel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7294412682B2E70019BCBF /* SearchInExcel */ = {
+			isa = PBXGroup;
+			children = (
+				AD7294422682B2E80019BCBF /* AppDelegate.swift */,
+				AD7294442682B2E80019BCBF /* ContentView.swift */,
+				AD7294462682B2E80019BCBF /* Assets.xcassets */,
+				AD72944B2682B2E80019BCBF /* Main.storyboard */,
+				AD72944E2682B2E80019BCBF /* Info.plist */,
+				AD72944F2682B2E80019BCBF /* SearchInExcel.entitlements */,
+				AD7294482682B2E80019BCBF /* Preview Content */,
+			);
+			path = SearchInExcel;
+			sourceTree = "<group>";
+		};
+		AD7294482682B2E80019BCBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD7294492682B2E80019BCBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD72943E2682B2E70019BCBF /* SearchInExcel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7294522682B2E80019BCBF /* Build configuration list for PBXNativeTarget "SearchInExcel" */;
+			buildPhases = (
+				4456C1C0B8E8AE6F4D669D98 /* [CP] Check Pods Manifest.lock */,
+				AD72943B2682B2E70019BCBF /* Sources */,
+				AD72943C2682B2E70019BCBF /* Frameworks */,
+				AD72943D2682B2E70019BCBF /* Resources */,
+				34BDB3EE4E55BFAE39ED0172 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchInExcel;
+			productName = SearchInExcel;
+			productReference = AD72943F2682B2E70019BCBF /* SearchInExcel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD7294372682B2E70019BCBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AD72943E2682B2E70019BCBF = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = AD72943A2682B2E70019BCBF /* Build configuration list for PBXProject "SearchInExcel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD7294362682B2E70019BCBF;
+			productRefGroup = AD7294402682B2E70019BCBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD72943E2682B2E70019BCBF /* SearchInExcel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD72943D2682B2E70019BCBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD72944D2682B2E80019BCBF /* Main.storyboard in Resources */,
+				AD72944A2682B2E80019BCBF /* Preview Assets.xcassets in Resources */,
+				AD7294472682B2E80019BCBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34BDB3EE4E55BFAE39ED0172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchInExcel/Pods-SearchInExcel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SearchInExcel/Pods-SearchInExcel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchInExcel/Pods-SearchInExcel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4456C1C0B8E8AE6F4D669D98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchInExcel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD72943B2682B2E70019BCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7294452682B2E80019BCBF /* ContentView.swift in Sources */,
+				AD7294432682B2E80019BCBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD72944B2682B2E80019BCBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD72944C2682B2E80019BCBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD7294502682B2E80019BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD7294512682B2E80019BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD7294532682B2E80019BCBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917826F87D92DD00B5DC89E3 /* Pods-SearchInExcel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SearchInExcel/SearchInExcel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SearchInExcel/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LZFCBSXYM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SearchInExcel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theoctocode.SearchInExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AD7294542682B2E80019BCBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8BEE2A265AB475E19B75EC4 /* Pods-SearchInExcel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SearchInExcel/SearchInExcel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SearchInExcel/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LZFCBSXYM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SearchInExcel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theoctocode.SearchInExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD72943A2682B2E70019BCBF /* Build configuration list for PBXProject "SearchInExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7294502682B2E80019BCBF /* Debug */,
+				AD7294512682B2E80019BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7294522682B2E80019BCBF /* Build configuration list for PBXNativeTarget "SearchInExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7294532682B2E80019BCBF /* Debug */,
+				AD7294542682B2E80019BCBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD7294372682B2E70019BCBF /* Project object */;
+}
